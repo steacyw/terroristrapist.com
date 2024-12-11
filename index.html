@@ -46,6 +46,29 @@ p {
   margin-bottom: 10px;
  }
 
+.wigText {
+margin: auto;
+width: 100%;
+height: 100%;
+font-size: 11vw;
+font-family: 'Urbanist', sans-serif;
+color: #1c1c1c;
+text-align: center;
+overflow: hidden;
+padding-top: 10vh;
+position: relative;
+animation-name: wig;
+animation-duration: 0.08s;
+animation-iteration-count: infinite;
+animation-timing-function: ease;
+animation-delay: 0s;
+}
+@keyframes wig {
+0%   {rotate: 0deg;}
+50%  {rotate: -0.1deg;}
+100% {rotate: 0deg;}
+}
+
 </style>
 </head>
 <body style="background-color:#1d1d1d">
@@ -69,7 +92,9 @@ p {
 <div class="spacerLong">
 </div>
 
+<div class="wigText">
 <h1 lang="ja-jp">今私はテロリストのようにレイプしている</h1>
+</div>
 
 <div class="spacerLong">
 </div>
